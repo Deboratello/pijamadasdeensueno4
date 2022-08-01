@@ -1,0 +1,21 @@
+.container{
+    padding: 20px;
+}
+.container img{
+    width:350px;
+    height:200px;
+    display: block;
+    object-fit: cover;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+            transition-duration: 1s;
+            box-shadow: 0 0 5px #333;
+        }
+}
+.container col-9{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}

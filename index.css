@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  font-family: Duper;
+  text-align: left;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #839080;
+  text-align: center;
+  color: white;
+}
+
+section.galeria:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  box-shadow: 0 0 5px #333;
+}
+
+textarea {
+  resize: none;
+}
+
+h1 {
+  padding-top: 10px;
+  font-family: Duper;
+  color: #ef7a75;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: eigerdals;
+  color: #839080;
+  font-size: large;
+}
+
+legend {
+  font-family: eigerdals;
+  color: #839080;
+  font-size: medium;
+}
+
+h3 {
+  font-family: Eigerdals;
+  color: #ef7a75;
+  font-size: medium;
+}
+
+h4 {
+  font-family: duper;
+  color: white;
+  font-size: xx-large;
+}
+
+h5 {
+  font-family: duper;
+  color: #ef7a75;
+  font-size: xx-large;
+}
+
+p {
+  font-family: Eigerdals;
+  font-size: medium;
+  color: #232f1d;
+  text-align: justify;
+}
+
+.card img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.card p {
+  width: 50%;
+  color: white;
+}
+
+.card p1 {
+  width: 50%;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container img {
+  width: 350px;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+.container img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition-duration: 1s;
+  box-shadow: 0 0 5px #333;
+}
+
+.container col-9 {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=index.css.map */
